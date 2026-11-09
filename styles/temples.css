@@ -20,7 +20,7 @@ header {
     text-align: center;
 }
 
-header h1 {
+header .site-title {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
