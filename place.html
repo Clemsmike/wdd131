@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover Nigeria, the Giant of Africa, its geography, culture, population, and weather.">
+    <meta name="author" content="Clement Enukaorah">
+    <title>Nigeria | WDD 131 Country Page</title>
+
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Nigeria</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source
+                    srcset="images/nigeria-large.webp"
+                    media="(min-width: 768px)">
+                <img
+                    src="images/nigeria-small.webp"
+                    alt="Beautiful landscape representing Nigeria"
+                    width="600"
+                    height="400">
+            </picture>
+        </div>
+
+        <section class="country-data">
+            <h2>About Nigeria</h2>
+
+            <div class="data-content">
+                <p><strong>Official Name:</strong> Federal Republic of Nigeria</p>
+                <p><strong>Capital:</strong> Abuja</p>
+                <p><strong>Continent:</strong> Africa</p>
+                <p><strong>Population:</strong> Approximately 230 million</p>
+                <p><strong>Currency:</strong> Nigerian Naira (₦)</p>
+                <p><strong>Language:</strong> English</p>
+                <p><strong>Independence:</strong> 1 October 1960</p>
+                <p><strong>National Anthem:</strong> Nigeria, We Hail Thee</p>
+            </div>
+        </section>
+
+        <section class="weather">
+            <h2>Weather</h2>
+
+            <img
+                class="weather-icon"
+                src="images/weather.svg"
+                alt="Partly cloudy weather icon"
+                width="80"
+                height="80">
+
+            <div class="weather-content">
+                <p><strong>Condition:</strong> Partly Cloudy</p>
+                <p><strong>Temperature:</strong> <span id="temperature">28</span> °C</p>
+                <p><strong>Wind Speed:</strong> <span id="wind-speed">12</span> km/h</p>
+                <p><strong>Wind Chill:</strong> <span id="wind-chill">N/A</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Clement Enukaorah | Nigeria</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
