@@ -1,0 +1,33 @@
+/* Desktop and larger screen layout */
+@media screen and (min-width: 768px) {
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.site-title {
+    margin: 0;
+}
+
+#menu-button {
+    display: none;
+}
+
+nav {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.temple-container {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+main {
+    padding: 2rem;
+}
+
+}

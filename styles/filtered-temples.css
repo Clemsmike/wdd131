@@ -1,0 +1,120 @@
+
+/* General page styling */
+
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+font-family: 'Roboto', sans-serif;
+background-color: #f4f4f4;
+color: #222;
+}
+
+/* Header */
+header {
+background-color: #1b4965;
+color: white;
+padding: 1rem;
+text-align: center;
+}
+
+.site-title {
+font-size: 1.8rem;
+font-weight: 700;
+margin: 0 0 1rem;
+}
+
+/* Navigation */
+#menu-button {
+background: none;
+border: none;
+color: white;
+font-size: 1.8rem;
+cursor: pointer;
+margin-bottom: 1rem;
+}
+
+nav {
+display: flex;
+flex-direction: column;
+gap: 0.8rem;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-weight: 700;
+padding: 0.5rem;
+}
+
+nav a:hover {
+background-color: #62b6cb;
+color: #0b132b;
+border-radius: 5px;
+}
+
+/* Main content */
+main {
+max-width: 1200px;
+margin: 0 auto;
+padding: 1rem;
+}
+
+h1 {
+text-align: center;
+color: #1b4965;
+margin-bottom: 1.5rem;
+}
+
+/* Temple cards */
+.temple-container {
+display: grid;
+grid-template-columns: 1fr;
+gap: 1.5rem;
+}
+
+.temple-card {
+background-color: white;
+padding: 1rem;
+margin: 0;
+border-radius: 8px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+text-align: center;
+}
+
+.temple-card h2 {
+color: #1b4965;
+font-size: 1.3rem;
+margin-top: 0;
+}
+
+.temple-card p {
+line-height: 1.5;
+margin: 0.5rem 0;
+}
+
+.temple-card img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    aspect-ratio: 8 / 5;
+    object-fit: cover;
+    margin: 1rem auto 0;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+background-color: #1b4965;
+color: white;
+text-align: center;
+padding: 1rem;
+margin-top: 2rem;
+}
+
+footer p {
+margin: 0.5rem 0;
+}
