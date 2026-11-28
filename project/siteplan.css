@@ -1,0 +1,120 @@
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+    color: #163A5F;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #163A5F;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px 15px;
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    color: #FFFFFF;
+}
+
+/* Website logo */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.atom {
+    font-size: 45px;
+    color: #BEE9E8;
+}
+
+.logo-text {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 2px solid #BEE9E8;
+    padding: 5px 12px;
+    border-radius: 8px;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Sections */
+section {
+    background-color: #FFFFFF;
+    border: 1px solid #BEE9E8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: Georgia, serif;
+    color: #163A5F;
+}
+
+h2 {
+    border-bottom: 3px solid #1C7293;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #1C7293;
+}
+
+/* Highlighted content */
+.highlight {
+    background-color: #BEE9E8;
+    padding: 10px;
+}
+
+/* Wireframes */
+.wireframe {
+    background-color: #BEE9E8;
+    border: 2px solid #1C7293;
+    padding: 12px;
+    margin: 15px 0 25px;
+}
+
+.wireframe-box {
+    background-color: #FFFFFF;
+    border: 2px solid #1C7293;
+    padding: 15px;
+    margin: 8px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wireframe-row {
+    display: block;
+}
+
+/* Responsive layout for wider screens */
+@media screen and (min-width: 700px) {
+    .wireframe-row {
+        display: flex;
+        gap: 10px;
+    }
+
+    .wireframe-row .wireframe-box {
+        flex: 1;
+    }
+}
